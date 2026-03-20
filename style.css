@@ -1,0 +1,335 @@
+ html {background: #88D2FB url('gif/background.gif') fixed; }
+
+ body {	font-family: "Comic Sans MS", "Lucida Handwriting", cursive;
+ 	background:rgb(255, 181, 209);
+ 	position:relative;
+ 	max-width:800px; margin:0 auto;}
+
+ acronym {text-decoration: none;} /*how the f**k do you kill this in Moz? */
+
+ h1, h2, h3, h4 {font-family: "Lucida Handwriting", cursive}
+
+ a:hover {
+ 	background: url('gif/glitter.gif') no-repeat center;
+ 	}
+
+ /* ooh! centered */
+
+ #zen-container {
+ 	position: relative;
+ 	text-align: center;
+ 	width: 760px;
+ 	margin: 0px auto 55px;
+ 	color: #333333;
+ }
+
+ .page-wrapper {	background: url('gif/strip.png') repeat-y;
+ 	padding: 100px 100px 105px 10 0px;}
+
+ /*main  loveliness in almost same order as html*/
+
+ #zen-pageHeader {
+ 	width:90%;
+ 	height: auto;
+ 	margin-bottom: 20px;
+ }
+
+
+  h1 {
+ 	background: url('gif/lovely-divider.gif') no-repeat right;
+ 	padding-top: 5px;
+ 	height: 100 px;
+ 	margin: 0px auto;
+ 	text-align: left; color:#ff0b69;
+ 	}
+
+ #zen-pageHeader h1 span {
+ 	margin-left:-5000px;}
+
+  h2 {
+ 	text-decoration: none;
+ 	height: 70px;;
+ 	color: rgb(80, 0, 31);
+ 	text-align: center;
+ 	background: url('gif/horrid.gif') no-repeat center;
+ }
+
+
+ #zen-summary {
+ 	text-align:left;
+ 	height:150px;
+ 	background:  url('gif/diary.gif') no-repeat;
+ 	padding-left:150px;
+ 	margin-left: 30px;
+ }
+
+ #zen-quickSummary p.p2 {
+ 	font-size: large; /* can increase twice in Moz/ IE without breaking */
+ 	color: #FF0000;
+ 	text-decoration: blink;  /* curse you, IE, for not blinking !*/
+ 	text-align: center; /* curse you, America, for spelling "centre" wrong */
+ }
+
+
+
+ #zen-preamble {
+ 	width: 55%;
+ 	float: left;
+ 	background:  url('gif/butterfly.webp') no-repeat;
+ 	text-align: left;
+ 	color: #b8004d;
+ 	font-family:"Comic Sans MS", "Lucida Handwriting";
+ 	padding:10px 20px 20px 20px;
+ 	font-weight: bolder;
+ }
+
+
+
+
+ #zen-preamble h3 {
+ 	text-align: center;
+ 	color: #00CC66;
+ }
+
+
+
+ #zen-explanation {width:60%; float:left; margin-left: 10% ;
+ 	background: #fff url('gif/buzzing-fly.gif') no-repeat 50% 50%;
+ 	color: #FF0066;
+ 	font-family: "Courier New", Courier, mono;
+ 	text-align: center;
+ 	border: medium dashed #28ffb7;
+ 	padding: 70px;
+ 	}
+
+ #zen-explanation h3 {
+ 	background: url('zenimages/handl.gif') no-repeat right center;
+ 	text-align: center;
+ 	font-weight: 700;
+ 	color: #99CC00;
+ 	text-decoration: blink;
+ }
+
+
+ #zen-explanation .p2 {
+ 	font-family:Geneva, Arial, Helvetica, sans-serif;
+ 	text-transform: capitalize;
+ 	color: #660066;
+ 	font-style: italic;
+ 	padding-left: 85px;
+ 	font-weight: 800;
+ 	text-align: right;
+ 	background: url('zenimages/roses.gif') no-repeat left bottom;
+ }
+
+
+ #zen-participation {clear:both; background: transparent; padding: 8px;}
+
+
+ #zen-participation h3 {
+ 	background: url('gif/participation.gif') no-repeat;
+ 	height:90px;color:transparent;
+ }
+
+
+
+ #zen-participation p:first-of-type {
+ 	background: #ff9898 url('gif/plants.avif') no-repeat left;
+ 	min-height: 100px;
+ 	padding-left: 10px;
+ 	color: #790048;
+ 	border: medium solid #ff0e0e;
+ 	margin-top:5px;
+ 	margin-right: 40%;
+ 	cursor: help;
+ 	font-family: "Times New Roman", Times, serif;
+ }
+
+ #zen-participation .p1 a {color:#FF33CC;}
+
+ #zen-participation p:nth-of-type(2) {
+ 	font-style: italic;
+ 	text-transform: uppercase;
+ 	color: #FF0066;
+ 	text-align: justify;
+ 	margin-right: 1%;
+ 	background: rgb(255, 255, 3) url('gif/fairy2.png') no-repeat left;
+ 	padding-left:80px; padding-right:50px; padding-top:50px; padding-bottom50px;
+ 	}
+
+ #zen-participation p:nth-of-type(3) {
+ 	background: #860d0d url('gif/download.png') no-repeat left ;
+ 	padding: 10px 10px 10px 170px;
+ 	color: #ffffff;
+ 	text-align: justify;
+ 	}
+
+ #zen-participation .p3 a {color:#FFFF00;}
+
+
+
+ #zen-benefits {
+ 	background: url('gif/brdr.webp');
+ 	border-top: thick solid #00FFFF;
+ 	border-right: thick solid #FF0099;
+ 	border-bottom: thick solid #FFFF00;
+ 	border-left: thick solid #FF9966;
+ 	margin-bottom: 1px;
+ 	}
+
+ #zen-benefits h3 {background: url('gif/benefits.jpg') no-repeat center center;
+ 	height:90px; color:transparent;}
+
+ #zen-requirements {
+ 	width:auto;
+ 	color: #06ffff;
+ 	text-align: justify;
+ 	height:300px;
+ 	border:  medium none;
+ 	font-size: medium;
+ 	padding: 3%;
+ 	overflow: scroll;
+ 	background: url('gif/tulip.webp');
+ 	clear: both;
+ 	}
+
+ /* dandy faux-buttons in the footer */
+
+
+ footer {
+ 	margin-top:15px;
+ 	background: url('zenimages/handr.gif') no-repeat 15%;
+ 	}
+
+ footer a {
+ 	font:bold 15px Arial, Helvetica, sans-serif;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	padding: 5px;
+ 	width: 90px;
+ 	margin: 10px;
+ 	height: 30px;
+ 	text-transform: uppercase;
+ 	border: thick #CCCC66 outset;
+ 	}
+
+ footer a:link {
+ 	color: #fff;
+ 	background: #CCCC66;
+ 	border: outset;
+ 	}
+
+ footer a:hover, #zen-footer a:active {
+ 	text-transform: uppercase;
+ 	color: #FF33CC;
+ 	background: #FFFF66 ;
+ 	}
+
+
+ .design-selection {
+ 	width:80%
+ 	margin: 20px auto;
+ 	}
+
+ .design-selection nav {
+ 	background:  url('gif/flowers.avif') repeat left;
+ 	margin: 10px;
+ 	padding: 150px;
+ 	width: auto;
+ 	border: medium ridge #E4E0FA;
+ 	}
+
+ .design-selection h3 {
+ 	background: url('gif/head1.gif') no-repeat center top;
+ 	height:65px;
+ color:transparent;}
+
+ #zen-lselect h3 span {margin-left: -5000px}
+
+
+ .design-selection ul {
+ 	cursor: crosshair; list-style-image:url('gif/flower.gif');
+ 	font-style:italic; font-variant:small-caps; font-weight:normal;
+ 	font-size:x-large; font-family:Times New Roman, Times, serif
+ 	}
+
+
+ .design-archives {
+ 	background: url('gif/bg_pulsating_star.gif') repeat;
+ 	}
+
+ .design-archives  h3 {
+ 	background: url('gif/archive.png') no-repeat center; height: 40px;
+ 	color:transparent;}
+
+ #zen-larchives h3 span {margin-left:-5000px;}
+
+ .design-archives  ul {
+ 	 list-style-image:url('gif/flower.gif');}
+
+ .design-archives  a {line-height:25px;text-decoration:none;color:#9900FF;}
+
+ .design-archives  a:hover {
+ 	background: url('gif/flower.gif')  center;
+ 	color: black;
+ 	cursor: w-resize;}
+
+ .zen-resources {
+ 	background: url('gif/castle.gif') no-repeat center bottom;
+ 	padding-bottom: 115px;}
+
+
+ .zen-resources h3 { height:145px;
+ 	background:  url('gif/css.png') no-repeat center; color:transparent;}
+
+ #zen-lresources h3 span {margin-left:-5000px;}
+
+
+ .zen-resources ul {
+ 	padding-left: 50px;
+ 	list-style: url('gif/flower.gif');}
+
+ .zen-resources a {text-decoration:none;color:#FF6600;}
+
+ .zen-resources a:hover {
+ 	color: #FAFAE2;
+ 	background: url('gif/flower.gif') no-repeat center top;}
+
+
+
+ /*lovely decorative thingies in the order I thought of them*/
+
+
+ .extra1 {
+ 	position:absolute;
+ 	bottom :40px;
+ 	left: 150px;
+ 	width:128px; height: 40px;
+ 	background: url('gif/sprinkles.webp') no-repeat;
+ }
+ * html #zen-extraDiv1 {bottom:80px;}
+
+ .extra3 {
+ 	position:absolute;
+ 	bottom :40px;
+ 	left:80%;
+ 	background: url('gif/sprinkles.webp') no-repeat;
+ 	width:91px; height:45px;
+ }
+ * html #zen-extraDiv3 {bottom:80px;}
+
+ .extra4 {
+ 	position:absolute;
+ 	bottom :40px;	left:50%;
+ 	width:88px;
+ 	height:31px;
+ 	background-image: url('gif/paruparu.gif');}
+ * html #zen-extraDiv4 {bottom:80px;}
+
+ .extra5 {position:absolute;
+ 	top :300px;	right:0%;
+ 	width:300px;
+ 	height: 550px;
+ 	background-image: url('gif/fairy.gif');}
+
+ /* and that's it. If we could add JavaScript, I'd have added some autoplay midi and a lovely unicorn to follow the mouse. But I can't. Sob. */
